@@ -6,13 +6,13 @@ comments: true
 categories: articles, publications
 ---
 
-Functions is JavaScript are first class citizens of the language just like Objects are.
+Functions in JavaScript are first class citizens of the language just like Objects.
 
 In another words Functions enjoy all the same privileges (in fact more) as do the Objects in JavaScript.
 
 Privilegdes such as 
 
-#### 1. Functions can be created via a literal
+#### 1. Functions can be created via a literal.
 
 {% highlight javascript %}
 var obj = {a : 2, b: 2}; // object literal
@@ -22,7 +22,7 @@ var add = function(a, b) { // function literal
 };
 {% endhighlight %}
 
-#### 2. Functions can be assigned to variables, array entries and object properties
+#### 2. Functions can be assigned to variables, array entries and object properties.
 
 {% highlight javascript %}
 
@@ -38,7 +38,7 @@ obj.addMethod = add; // function assigned to Object obj as a addMethod property
 
 {% endhighlight %}
 
-#### 3. Functions can be passed as arguments to other functions
+#### 3. Functions can be passed as arguments to other functions.
 
 {% highlight javascript %}
 
@@ -72,14 +72,14 @@ console.log(tripleIt(3)); // prints 9
 #### 5. Functions can also have their own properties and these properties can be added or removed dynamically
 {% highlight javascript %}
 
-function myFunc() {
-	
-}
+function myFunc() {}
 
 myFunc.prop1 = 'prop1';
 
 console.log(myFunc.prop1); // prints prop1
 
 {% endhighlight %}
+
+In addition to all of above, Functions also have special superpower in that they can be _invoked_
 
 
