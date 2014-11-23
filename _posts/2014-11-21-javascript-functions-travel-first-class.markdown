@@ -3,7 +3,7 @@ layout: post
 title: "JavaScript functions travel first class"
 date: 2014-11-21 16:29
 comments: true
-categories: articles, publications
+categories: functions, jsfoundations, jsbasics
 ---
 
 Functions in JavaScript are first class citizens of the language just like Objects.
