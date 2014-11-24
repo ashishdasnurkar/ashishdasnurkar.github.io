@@ -10,7 +10,7 @@ Functions in JavaScript are first class citizens of the language just like Objec
 
 In another words Functions enjoy all the same privileges (in fact more) as do the Objects in JavaScript.
 
-Privilegdes such as 
+Privileges such as 
 
 #### 1. Functions can be created via a literal.
 
