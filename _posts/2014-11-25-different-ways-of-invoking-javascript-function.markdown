@@ -17,6 +17,10 @@ Now in addition to these two there are two more ways of invocations
 #### 3. Invoking functions as constructors
 #### 4. Invoking functions using <code>apply()</code> and <code>call()</code> methods
 
+Before I dig into details of each type of function invocation, I must explain two important concepts two implicit parameters <code>argumetns</code> and <code>this</code> that are passed to every invoked function.
+
+### arguments *collection*
+
 Let's take a look at each of these methods in detail with sample code
 
 #### 1. Invoking functions as functions
