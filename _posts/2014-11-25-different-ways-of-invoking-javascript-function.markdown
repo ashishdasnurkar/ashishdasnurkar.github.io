@@ -64,4 +64,32 @@ a();
 In above code, for function <code>c</code> function context is still <code>Window</code>
 
 #### 2. Invoking functions as object methods
-As we saw in earlier post
+As I described in [earlier post]({% post_url 2014-11-21-javascript-functions-travel-first-class %}), functions can be assigned to object properties and can be invoked using () operator.
+
+Similar to object-oriented languages, if a function is invoked as n object's method then the object becomes the function context.
+
+{% highlight javascript %}
+var user = {};
+user.sing = function() {
+	console.log(this + ' is singing');
+}
+user.sing(); // prints [object Object] is singing
+{% endhighlight %}
+
+#### 3. Invoking functions as constructors
+Functions that can be invoked as constructors are just like any other functions. What makes a function a constructor function is the way it is invoked which is using <code>new</code> keyword.
+
+When a function is invoked as a constructor funciton i.e. using <code>new</code> keyword,
+1. A new empty Object is created and passed on to the function as <code>this</code> implicit parameter. <code>this</code> new Object becomes <em>function context</em> for the constructor function.
+2. If nothing is returned from function, by default this newly created Object is returned from it.
+
+{% highlight javascript %}
+function Singer() {
+	this.sing = function() {
+		console.log(this + ' is singing');
+        return this;
+    };
+}
+var user = new Singer();
+console.log(user.sing() === user); // prints true
+{% endhighlight %}
