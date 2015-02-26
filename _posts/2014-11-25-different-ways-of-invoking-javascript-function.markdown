@@ -93,3 +93,5 @@ function Singer() {
 var user = new Singer();
 console.log(user.sing() === user); // prints true
 {% endhighlight %}
+
+

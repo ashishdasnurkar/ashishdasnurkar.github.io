@@ -10,7 +10,7 @@ Prior to this blog I have written several articles & blogs on other sites. I jus
 
 List of articles in no particular order
 
-* [Explore the CDI programming model in ZK](http://www.ibm.com/developerworks/library/wa-aj-zkcdi/) An article I wrote for IBM DeveloperWorks to introduce ZK CDI integration library.
+* [Explore the CDI programming model in ZK](http://www.ibm.com/developerworks/library/wa-aj-zkcdi/) An article I wrote for IBM DeveloperWorks to introduce ZK CDI integration library that I had developed.
 
 * Two part series of articles introducing how to integrate third party JavaScript libraries with ZK framework.
 
