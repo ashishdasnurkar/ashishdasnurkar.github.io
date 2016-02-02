@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using webtask with ifttt to save reddit stories into mongodb"
-date: 2015-01-15 00:01
+date: 2016-02-02 00:01
 comments: true
 categories: hacking, webtask, ifttt, reddit, personal
 ---
