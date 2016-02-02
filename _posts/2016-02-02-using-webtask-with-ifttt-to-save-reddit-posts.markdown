@@ -106,13 +106,13 @@ Step 6. Configure ifttt to execute webtask by making a request to webtask url an
 
 ![configure webtask url](/public/images/maker_channel_settings_step6.png)
 
-#Troubleshooting
+# Troubleshooting
 
 IFTTT takes bit of time to trigger the webtask web request. You can try the "Check recipe" buttom om ifttt once yur recipe is created to force the trigger.
 
 If "Check recipe" throws any error, check the webtask logs by running `wt logs` command. This command streams the webtask logs so you might need to click "Check recipe" while this command is running as it won't show past logs.
 
-You could also test the webtask locally using the `test.js` in the repo (refer to readme to see how to use it).
+You could also test the webtask locally using the `test.js` in the repo (refer to readme in github repo to see how to use it).
 
 
 
