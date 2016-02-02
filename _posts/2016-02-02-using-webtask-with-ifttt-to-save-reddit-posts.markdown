@@ -14,7 +14,7 @@ So here is what I did briefly. I created a webtask that is invoked whenever I sa
 
 For now I will just document the webtask creation and ifttt configuration so just in case if you want to setup similar ifttt task you can follow along as well.
 
-#create webtask
+# create webtask
 A webtask is a simple node module. A simplest webtask could be as simple as a hello.js file containing following code
 
 {% highlight javascript %}
@@ -77,7 +77,7 @@ Next step is to actaully create our redditwebtask using wt-cli `wt create` comma
 
 Creating webtask by executing `wt create` command return a url. Later you will use this url to setup an action in ifttt (step 6 below)
 
-#create IFTTT trigger and action
+# Create IFTTT trigger and action
 
 Next, I added a recipe on ifttt.
 
